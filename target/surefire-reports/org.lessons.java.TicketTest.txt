@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: org.lessons.java.TicketTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! -- in org.lessons.java.TicketTest
+org.lessons.java.TicketTest.testOver65Price -- Time elapsed: 0.006 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: il prezzo pieno con sconto over 65 è stato calcolato male ==> expected: <12.6> but was: <12.725999999999999>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:925)
+	at org.lessons.java.TicketTest.testOver65Price(TicketTest.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

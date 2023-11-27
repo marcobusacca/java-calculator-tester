@@ -10,6 +10,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
 public class CalculatorTest {
 	
 	float num1 = 5;
@@ -66,7 +67,7 @@ public class CalculatorTest {
     @Test
     public void goodDivideNumbersTest() {
     	
-    		assertDoesNotThrow(() -> c.divide(num1, num2), "Eccezione generata");
+    		assertDoesNotThrow(() -> c.divide(num1, num2), "Eccezione generata per il num2");
     }
     
     @Test
@@ -74,6 +75,6 @@ public class CalculatorTest {
     	
     		assertThrows(Exception.class,
 				() -> c.divide(num1, 0),
-				"Non è stata lanciata un'eccezione");
+				"Non è stata lanciata un'eccezione per il num2 uguale a 0");
     }
 }

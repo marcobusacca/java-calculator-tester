@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.lessons.java.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.065 s <<< FAILURE! -- in org.lessons.java.CalculatorTest
-org.lessons.java.CalculatorTest.multiplyTest -- Time elapsed: 0.005 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: Moltiplicazione non riuscita ==> expected: <1.0> but was: <25.0>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:102)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:771)
-	at org.lessons.java.CalculatorTest.multiplyTest(CalculatorTest.java:77)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s -- in org.lessons.java.CalculatorTest
